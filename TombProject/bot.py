@@ -48,7 +48,7 @@ async def send_message(message):
             traceback.print_exc()
         
 def run_bot():
-    token = 'MTE2NDk1OTg3MDE0Mzk3MTMzMA.GYUrnv.mp3g4w1USNjIokocSaEmnij9NrfaYi3w7xAlbQ'
+    token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
